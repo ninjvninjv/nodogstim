@@ -1,0 +1,234 @@
+
+@font-face {
+    font-family: 'arnos_voicemedium';
+    src: url('/fonts/arnos_voice-webfont.woff2') format('woff2'),
+         url('/fonts/arnos_voice-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'buckleregular';
+    src: url('/fonts/buckle-webfont.woff2') format('woff2'),
+         url('/fonts/buckle-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'extragroe_depeschenschriftRg';
+    src: url('/fonts/extragrosedepeschenschrift-regular_0-webfont.woff2') format('woff2'),
+         url('/fonts/extragrosedepeschenschrift-regular_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'erika_latin1regular';
+    src: url('/fonts/erikalatin1-regular-webfont.woff2') format('woff2'),
+         url('/fonts/erikalatin1-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fragmentbold';
+    src: url('/fonts/fragment-bold-webfont.woff2') format('woff2'),
+         url('/fonts/fragment-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fragmentlight';
+    src: url('/fonts/fragment-light-webfont.woff2') format('woff2'),
+         url('/fonts/fragment-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fragmentregular';
+    src: url('/fonts/fragment-regular-webfont.woff2') format('woff2'),
+         url('/fonts/fragment-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'friendshiptestakzenteregular';
+    src: url('/fonts/friendshiptestakzente-regular-webfont.woff2') format('woff2'),
+         url('/fonts/friendshiptestakzente-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'new_rageregular';
+    src: url('/fonts/newrage-regular-webfont.woff2') format('woff2'),
+         url('/fonts/newrage-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'serifekantregular';
+    src: url('/fonts/serifekant-regular-webfont.woff2') format('woff2'),
+         url('/fonts/serifekant-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tbi_9ptcorrected';
+    src: url('/fonts/tbi_9pt-corrected-webfont.woff2') format('woff2'),
+         url('/fonts/tbi_9pt-corrected-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tbi_9ptregular';
+    src: url('/fonts/tbi_9pt-regular-webfont.woff2') format('woff2'),
+         url('/fonts/tbi_9pt-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tbi_11ptcorrected';
+    src: url('/fonts/tbi_11pt-corrected-webfont.woff2') format('woff2'),
+         url('/fonts/tbi_11pt-corrected-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tbi_11ptregular';
+    src: url('/fonts/tbi_11pt-regular_0-webfont.woff2') format('woff2'),
+         url('/fonts/tbi_11pt-regular_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tbi_13ptcorrected';
+    src: url('/fonts/tbi_13pt-corrected-webfont.woff2') format('woff2'),
+         url('/fonts/tbi_13pt-corrected-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tbi_13ptregular';
+    src: url('/fonts/tbi_13pt-regular-webfont.woff2') format('woff2'),
+         url('/fonts/tbi_13pt-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tbi_15ptcorrected';
+    src: url('/fonts/tbi_15pt-corrected_0-webfont.woff2') format('woff2'),
+         url('/fonts/tbi_15pt-corrected_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tbi_15ptregular';
+    src: url('/fonts/tbi_15pt-regular_1-webfont.woff2') format('woff2'),
+         url('/fonts/tbi_15pt-regular_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tigrregular';
+    src: url('/fonts/tigr-regular-webfont.woff2') format('woff2'),
+         url('/fonts/tigr-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'uschi-09-02-18regular';
+    src: url('/fonts/uschi-09-02-18-regular-webfont.woff2') format('woff2'),
+         url('/fonts/uschi-09-02-18-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

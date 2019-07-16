@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'fragmentbold';
+    src: url('fonts/fragment-bold-webfont.woff2') format('woff2'),
+         url('fonts/fragment-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fragmentlight';
+    src: url('fonts/fragment-light-webfont.woff2') format('woff2'),
+         url('fonts/fragment-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fragmentregular';
+    src: url('fonts/fragment-regular-webfont.woff2') format('woff2'),
+         url('fonts/fragment-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style:normal;
+
+}
+
+body {
+    font-family: 'fragmentbold';
+    height:5000px;
+}
+
+.normaltext {
+    font-family: 'fragmentbold';
+    font-size: 45px;
+    text-align: justify;
+}
+
+.normaltext h1 {
+    font-size: inherit;
+}
+
+.line {
+    position:fixed;
+    overflow:hidden;
+}
+
+
+#line1 {
+    top: 0;
+}
+
+#line2 {
+    top: 45;
+}
+
+#line3 {
+    top: 90;
+}
+
+#line4 {
+    top: 135;
+}
+
+#line5 {
+    top: 180;
+}
+
+#line6 {
+    top: 225;
+}
+
+#line7 {
+    top: 270;
+}
+
+#line8 {
+    top: 315;
+}
+
+#line9 {
+    top: 360;
+}
+
+#line10 {
+    top: 405;
+}
+
+#line11 {
+    top: 450;
+}
+
+#line12 {
+    top: 495;
+}
+
+#line13 {
+    top: 540;
+}
+
+#line14 {
+    top: 585;
+}
+
+#line15 {
+    top: 630;
+}
+
+#line16 {
+    top: 675;
+}
+
+#line17 {
+    top: 720;
+}
+
+#line18 {
+    top: 765;
+}
+
+#line19 {
+    top: 810;
+}
+
+#line20 {
+    top: 855;
+}
+
+#line21 {
+    top: 900;
+}
+
+#curve {
+    fill: transparent;
+}
+
+#curve_text {
+    font-size: 45px;
+}
+
+
