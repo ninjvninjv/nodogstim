@@ -1,0 +1,178 @@
+<html>
+
+    <head>
+        
+        <meta charset="UTF-8">
+        
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    
+        <!--change the title to the name of your dog*/-->
+        <title>Helft Schnuppe</title>
+    
+    </head>
+    
+    
+    <body>
+        <svg viewBox="0 0 width height">
+        
+        <path id="curve" d="M100,70C200.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,131.91,264,150c40.67,14.43,108.57-6.91,229-145"/>
+                    
+                    <text id="curve_text" width="500">
+                        <textPath alignment-baseline="top" xlink:href="#curve">
+                            Vermisst: Schnuppe
+                        </textPath>
+                    </text>
+            </svg>
+        
+        <div class="normaltext">
+    
+                <p>
+                    
+                    <span class="line" id="line1">
+                        Seit Dienstag vermissen wir unseren "Schnuppe".
+                    </span>
+                    <span class="line" id="line2">
+                        Schnuppe ist etwa kniehoch und hat kurzes, goldbraunes
+                    </span>
+                    <span class="line" id="line3">
+                        Fell. Er ist sehr zutraulich und spielverrückt, er
+                    </span>
+                    <span class="line" id="line4">
+                        wuselt einfach überall herum und ist sehr neugierig.
+                    </span>
+
+                    <br>
+                    <br>
+
+                    <span class="line" id="line5">
+                        Am letzten Dienstagnachmittag haben wir mit Schnuppe in
+                    </span>
+                    <span class="line" id="line6">
+                        unserem Garten im Schnee gespielt. Als er dann einen 
+                    </span>
+                    <span class="line" id="line7">
+                        Fuchs am Rande des kleinen Waldes hinter unserem
+                    </span>
+                    <span class="line" id="line8">
+                        Grundstück erblickt hat, war er nicht mehr zu bremsen
+                    </span>
+                    <span class="line" id="line9">
+                        und ist dem Fuchs ins Gehölz hinterhergelaufen. Wir
+                    </span>
+                    <span class="line" id="line10">
+                        haben die Spuren bis zum Waldweg nach Nordtriedenbach 
+                    </span>
+                    <span class="line" id="line11">
+                        nachverfolgt, ab da fehlt jede Spur!
+                    </span>
+
+                    <br>
+                    <br>
+
+                    <span class="line" id="line12">
+                        Schnuppe ist noch sehr jung und unerfahren, hat aber
+                    </span>
+                    <span class="line" id="line13">
+                        bis jetzt immer nach Hause gefunden, wenn er mal weiter
+                    </span>
+                    <span class="line" id="line14">
+                        weggelaufen ist. So weit weg wie dieses Mal war er 
+                    </span>
+                    <span class="line" id="line15">
+                        allerdings noch nie.
+                    </span>
+
+                    <br>
+                    <br>
+
+
+                    <span class="line" id="line16">
+                        Wir machen uns wirklich Sorgen um unseren Schnuppe,
+                    </span>
+                    <span class="line" id="line17">
+                        also bitte ruft uns an, wenn ihr etwas wisst! Wir haben
+                    </span>
+                    <span class="line" id="line18">
+                        zwar nicht so viel Geld, aber backen sehr gute 
+                    </span>
+                    <span class="line" id="line19">
+                        Weihnachtsplätzchen!
+                    </span>
+
+                    <br>
+                    <br>
+
+                    <span class="line" id="line20">
+                        Wir sind für jeden Hinweis sehr dankbar!
+                    </span>
+
+                    <br>
+                    <br>
+
+                    <span class="line" id="line21">
+                        Familie Reindorf. Tel.: 0573/25410072
+                    </span>
+                </p>
+            </div>
+        
+    
+        <div class="test">
+        
+        </div>
+    </body>
+    
+    
+    <style>
+    
+        .importantthings{
+            background-color: ; 
+        }
+        
+    </style>
+    
+    
+    <script>
+        
+        $(document).ready(function(){
+            
+            shorter();  
+                
+            
+            });
+        
+        function shorter() {
+            for (i=0;i<21;i++) {
+                var up = i+1
+                rotating('#line' + up);
+            };
+        }
+        
+        function rotating(line){
+         
+        var r = Math.floor((Math.random()*45)  + 1);
+        $(line).css({'transform': 'rotate(' + r + 'deg)'});
+        
+        $(window).scroll(function() {
+                    
+                    var s = $('body').scrollTop();
+                    
+                    s = s/1000;
+                    
+                    r = r - s;
+                    
+                    if(r>0) {
+                    $(line).css({'transform': 'rotate(' + r + 'deg)'})
+                    }
+                
+         
+         });
+                    
+            
+                }
+        
+    
+    </script>
+    
+</html>
